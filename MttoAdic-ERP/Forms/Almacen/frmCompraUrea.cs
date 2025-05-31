@@ -1376,7 +1376,7 @@ namespace MttoAdic_ERP.Forms.Almacen
             folfisTemporal = "";
 
         }
-
+        //pruebas git
         private async void btnGrabar_Click(object sender, EventArgs e)
         {
             try
