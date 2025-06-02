@@ -223,7 +223,11 @@
             button1.Name = "button1";
             button1.Size = new Size(97, 23);
             button1.TabIndex = 10;
+
             button1.Text = "TEST MASTER";
+
+
+
             button1.UseVisualStyleBackColor = true;
             // 
             // button2
