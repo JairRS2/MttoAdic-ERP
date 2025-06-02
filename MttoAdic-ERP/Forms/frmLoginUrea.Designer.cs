@@ -218,11 +218,11 @@
             // 
             // button1
             // 
-            button1.Location = new Point(741, 134);
+            button1.Location = new Point(759, 115);
             button1.Name = "button1";
-            button1.Size = new Size(109, 23);
+            button1.Size = new Size(97, 23);
             button1.TabIndex = 10;
-            button1.Text = "otra prueba";
+            button1.Text = "TEST JAIR";
             button1.UseVisualStyleBackColor = true;
             // 
             // frmLoginUrea
