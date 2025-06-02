@@ -1016,5 +1016,10 @@ namespace MttoAdic_ERP.Forms
         {
 
         }
+
+        private void panel5_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
