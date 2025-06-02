@@ -232,11 +232,13 @@
             // 
             // button2
             // 
+
             button2.Location = new Point(759, 155);
             button2.Name = "button2";
             button2.Size = new Size(97, 23);
             button2.TabIndex = 11;
             button2.Text = "Master";
+
             button2.UseVisualStyleBackColor = true;
             // 
             // frmLoginUrea
