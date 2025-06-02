@@ -42,7 +42,6 @@
             btnLogin = new Button();
             pictureBox2 = new PictureBox();
             panelLogin2 = new PanelLogin();
-            button1 = new Button();
             panelPersonalizado1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -216,15 +215,6 @@
             panelLogin2.Size = new Size(407, 53);
             panelLogin2.TabIndex = 9;
             // 
-            // button1
-            // 
-            button1.Location = new Point(741, 134);
-            button1.Name = "button1";
-            button1.Size = new Size(109, 23);
-            button1.TabIndex = 10;
-            button1.Text = "otra prueba";
-            button1.UseVisualStyleBackColor = true;
-            // 
             // frmLoginUrea
             // 
             AcceptButton = btnLogin;
@@ -233,7 +223,6 @@
             BackColor = Color.White;
             ClientSize = new Size(883, 591);
             ControlBox = false;
-            Controls.Add(button1);
             Controls.Add(panelLogin2);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox3);
@@ -274,6 +263,5 @@
         private Button btnLogin;
         private PictureBox pictureBox2;
         private PanelLogin panelLogin2;
-        private Button button1;
     }
 }
