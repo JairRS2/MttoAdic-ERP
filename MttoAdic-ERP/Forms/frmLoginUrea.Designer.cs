@@ -44,7 +44,6 @@
             panelLogin2 = new PanelLogin();
             button1 = new Button();
             button2 = new Button();
-            button3 = new Button();
             panelPersonalizado1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -224,32 +223,17 @@
             button1.Name = "button1";
             button1.Size = new Size(97, 23);
             button1.TabIndex = 10;
-
             button1.Text = "TEST MASTER";
-
-
-
             button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-
             button2.Location = new Point(759, 155);
             button2.Name = "button2";
             button2.Size = new Size(97, 23);
             button2.TabIndex = 11;
             button2.Text = "Master";
-
             button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            button3.Location = new Point(759, 189);
-            button3.Name = "button3";
-            button3.Size = new Size(97, 23);
-            button3.TabIndex = 12;
-            button3.Text = "RamaMerge";
-            button3.UseVisualStyleBackColor = true;
             // 
             // frmLoginUrea
             // 
@@ -259,7 +243,6 @@
             BackColor = Color.White;
             ClientSize = new Size(883, 591);
             ControlBox = false;
-            Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(panelLogin2);
@@ -304,6 +287,5 @@
         private PanelLogin panelLogin2;
         private Button button1;
         private Button button2;
-        private Button button3;
     }
 }
