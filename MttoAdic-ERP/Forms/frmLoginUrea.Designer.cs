@@ -223,16 +223,22 @@
             button1.Name = "button1";
             button1.Size = new Size(97, 23);
             button1.TabIndex = 10;
-            button1.Text = "TEST JAIR";
+
+            button1.Text = "TEST MASTER";
+
+
+
             button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            button2.Location = new Point(759, 144);
+
+            button2.Location = new Point(759, 155);
             button2.Name = "button2";
             button2.Size = new Size(97, 23);
             button2.TabIndex = 11;
-            button2.Text = "RAMA";
+            button2.Text = "Master";
+
             button2.UseVisualStyleBackColor = true;
             // 
             // frmLoginUrea
