@@ -43,6 +43,7 @@
             pictureBox2 = new PictureBox();
             panelLogin2 = new PanelLogin();
             button1 = new Button();
+            button2 = new Button();
             panelPersonalizado1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -225,6 +226,15 @@
             button1.Text = "TEST JAIR";
             button1.UseVisualStyleBackColor = true;
             // 
+            // button2
+            // 
+            button2.Location = new Point(759, 155);
+            button2.Name = "button2";
+            button2.Size = new Size(97, 23);
+            button2.TabIndex = 11;
+            button2.Text = "Master";
+            button2.UseVisualStyleBackColor = true;
+            // 
             // frmLoginUrea
             // 
             AcceptButton = btnLogin;
@@ -233,6 +243,7 @@
             BackColor = Color.White;
             ClientSize = new Size(883, 591);
             ControlBox = false;
+            Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(panelLogin2);
             Controls.Add(pictureBox2);
@@ -275,5 +286,6 @@
         private PictureBox pictureBox2;
         private PanelLogin panelLogin2;
         private Button button1;
+        private Button button2;
     }
 }
