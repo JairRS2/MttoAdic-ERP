@@ -242,7 +242,7 @@
             button3.Name = "button3";
             button3.Size = new Size(127, 23);
             button3.TabIndex = 12;
-            button3.Text = "Prueba Rama merger";
+            button3.Text = "merge";
             button3.UseVisualStyleBackColor = true;
             // 
             // frmLoginUrea
