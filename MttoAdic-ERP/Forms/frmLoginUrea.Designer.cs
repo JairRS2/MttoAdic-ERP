@@ -238,11 +238,11 @@
             // 
             // button3
             // 
-            button3.Location = new Point(762, 200);
+            button3.Location = new Point(744, 200);
             button3.Name = "button3";
-            button3.Size = new Size(94, 23);
+            button3.Size = new Size(127, 23);
             button3.TabIndex = 12;
-            button3.Text = "Prueba Rama";
+            button3.Text = "Prueba Rama merger";
             button3.UseVisualStyleBackColor = true;
             // 
             // frmLoginUrea
