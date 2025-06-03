@@ -432,7 +432,6 @@ namespace MttoAdic_ERP.Forms
                 };
                 highlightTimer.Start();
 
-
             }
         }
         private Color ObtenerColorParaUsuario(string usuario)
