@@ -238,11 +238,13 @@
             // 
             // button3
             // 
-            button3.Location = new Point(759, 189);
+
+            button3.Location = new Point(744, 200);
             button3.Name = "button3";
-            button3.Size = new Size(75, 23);
+            button3.Size = new Size(127, 23);
             button3.TabIndex = 12;
-            button3.Text = "button3";
+            button3.Text = "merge";
+
             button3.UseVisualStyleBackColor = true;
             // 
             // frmLoginUrea
