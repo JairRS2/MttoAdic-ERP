@@ -45,6 +45,7 @@
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
+            button4 = new Button();
             panelPersonalizado1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -245,6 +246,15 @@
             button3.Text = "merge";
             button3.UseVisualStyleBackColor = true;
             // 
+            // button4
+            // 
+            button4.Location = new Point(786, 235);
+            button4.Name = "button4";
+            button4.Size = new Size(75, 23);
+            button4.TabIndex = 13;
+            button4.Text = "button4";
+            button4.UseVisualStyleBackColor = true;
+            // 
             // frmLoginUrea
             // 
             AcceptButton = btnLogin;
@@ -253,6 +263,7 @@
             BackColor = Color.White;
             ClientSize = new Size(883, 591);
             ControlBox = false;
+            Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -299,5 +310,6 @@
         private Button button1;
         private Button button2;
         private Button button3;
+        private Button button4;
     }
 }
